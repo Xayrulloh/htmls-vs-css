@@ -6,6 +6,10 @@
 <body>
     <hr> 
     <h1 id='header' class='hiheader'>1) step</h1>
+    <hr> 
+    <h1 class='hiheader'>1) step</h1>
+    <hr> 
+    <h1 class='hiheader'>1) step</h1>
     <hr>
     <h2> don't worry</h2>
     <hr> 
@@ -14,20 +18,35 @@
     <h2>you can't do it anyway</h2>
     <script>
         // id bilan olish
-        // const tag1 = document.getElementById('header')
-        // setTimeout(() => {tag1.innerHTML = 'what are you doing shit'; tag1.style = 'color: red'}, 5000)
-        // console.log(tag1);
+        /*const tag1 = document.getElementById('header')
+        setTimeout(() => {tag1.innerHTML = 'what are you doing shit'; tag1.style = 'color: red'}, 5000)
+        console.log(tag1);*/
         // class bilan olish
-        // const tag = document.getElementsByClassName('hiheader')
-        // setTimeout(() => {
-        //     console.log(tag);
-        //     tag[0].innerHTML = 'what are you doing shit'
-        //     tag[0].style = 'color: red'}, 5000)
+        /*const tag = document.getElementsByClassName('hiheader')
+        setTimeout(() => {
+            console.log(tag);
+            tag[0].innerHTML = 'what are you doing shit'
+            tag[0].style = 'color: red'}, 5000)*/
         // tag name bilan olish
-        const h1 = document.getElementsByTagName('h1')
+        /*const h1 = document.getElementsByTagName('h1')
         setTimeout(() => {
             h1[0].innerHTML = 'lets have a break'
-        }, 2000);
+        }, 2000);*/
+        // query selector bilan olish
+        /*const universal = document.querySelector('.hiheader')
+        universal.innerHTML = 'Xayrulloh'
+        console.log(universal);
+        const universals = document.querySelectorAll('.hiheader')
+        console.log(universals[1]);*/
+        // innerHTML va innerText farqi
+        const universal = document.querySelector('.hiheader')
+        // universal.innerHTML = 'Xayrulloh'bunda farqi uncha bilinmidi
+        // universal.innerText = 'Xayrulloh' bunda farqi uncha bilinmidi
+        // universal.innerHTML = "<h1> What are you doing</h1>" bunda boshqaca
+        // universal.innerText = "<h1> What are you doing</h1>" bunda boshqaca
+
+
+
         
     </script>
 </body>
