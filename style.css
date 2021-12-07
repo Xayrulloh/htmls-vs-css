@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background-color: cornsilk;
+    size: 0in;
+}
+#header {
+    font-family: 'Courier New', Courier, monospace;
+}
+.hideader {
+    font-size: 0.5;
+}
+
+
+
+
